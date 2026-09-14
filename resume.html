@@ -22,7 +22,12 @@
     <div class="page-intro">
       <p class="eyebrow">RESUME</p>
       <h1>Experience & technical background</h1>
-      <p>Selected experience, coursework, skills, and projects. Identifying contact information is intentionally omitted for this course version.</p>
+      <p>Selected experience, coursework, skills, and projects.</p>
+      <div class="contact-links" aria-label="Contact information">
+        <a href="mailto:stierlej@umich.edu">stierlej@umich.edu</a>
+        <a href="tel:(734) 883-1875">(734) 883-1875</a>
+        <a href="https://www.linkedin.com/in/james-stierle">linkedin.com/in/james-stierle</a>
+      </div>
     </div>
 
     <section class="resume-section">
@@ -44,20 +49,11 @@
           <span>Summer 2025 · Summer 2026</span>
         </div>
         <ul>
-          <li>Designed and implemented an agentic AI RAG workflow using approximately 70,000 historical bug reports to diagnose root causes and recommend solutions.</li>
+          <li><a href="projects.html#kla-rag">Designed and implemented an agentic AI RAG workflow using approximately 70,000 historical bug reports to diagnose root causes and recommend solutions.</a></li>
           <li>Created a semantic-search PostgreSQL database and an MCP server for low-latency retrieval of similar resolved issues and solutions.</li>
           <li>Built applications that used the semantic MCP to answer technical questions and reduce bug-triage investigation from hours or days to minutes.</li>
-          <li>Developed a CNN-based ML application to predict optimal compression formats for high-resolution wafer images, with potential storage savings of hundreds of terabytes.</li>
+          <li><a href="projects.html#kla-compression">Developed a CNN-based ML application to predict optimal compression formats for high-resolution wafer images, with potential storage savings of hundreds of terabytes.</a></li>
           <li>Worked with Python, SQL, Linux, MCP servers, RAG workflows, prompt engineering, Keras, and TensorFlow.</li>
-        </ul>
-      </article>
-      <article class="resume-item">
-        <div class="item-heading">
-          <div><h3>Red Robin</h3><p>Server</p></div>
-          <span>2021–2025 · 2025–Present</span>
-        </div>
-        <ul>
-          <li>Trained new hires while developing communication, multitasking, and leadership skills.</li>
         </ul>
       </article>
     </section>
@@ -67,7 +63,7 @@
       <div class="skill-groups">
         <div><h3>Languages</h3><p>Python · C/C++ · Java · SQL</p></div>
         <div><h3>ML / AI</h3><p>CNNs · RNNs · Diffusion Models · TensorFlow · PyTorch · RAG · AI Agents · MCP Servers</p></div>
-        <div><h3>Development</h3><p>Linux · Windows · VS Code · Visual Studio · Git/GitHub · Docker · IBM RTC</p></div>
+        <div><h3>Development</h3><p>Linux · Windows · VS Code · XCode · Visual Studio · Git/GitHub · Docker · IBM RTC</p></div>
       </div>
     </section>
 
@@ -82,7 +78,19 @@
     </section>
 
     <section class="resume-section">
-      <h2>Projects</h2>
+      <h2>Intern Projects</h2>
+      <article class="resume-item">
+        <div class="item-heading"><h3><a href="projects.html#kla-rag">Agentic Bug Diagnosis Workflow</a></h3></div>
+        <p>Built an agentic RAG workflow using approximately 70,000 historical bug reports, a semantic-search PostgreSQL database, and an MCP server to retrieve similar issues and solutions.</p>
+      </article>
+      <article class="resume-item">
+        <div class="item-heading"><h3><a href="projects.html#kla-compression">Wafer Image Compression Predictor</a></h3></div>
+        <p>Developed a CNN-based application with Keras and TensorFlow to predict optimal compression formats for high-resolution wafer images, with potential storage savings of hundreds of terabytes.</p>
+      </article>
+    </section>
+
+    <section class="resume-section">
+      <h2>Course Projects</h2>
       <article class="resume-item">
         <div class="item-heading"><h3><a href="projects.html#systems">Major OS Component Design</a></h3></div>
         <ul>
@@ -92,22 +100,26 @@
         </ul>
       </article>
       <article class="resume-item">
-        <div class="item-heading"><h3><a href="projects.html#icu">ICU Survival Rate Classifier</a></h3></div>
+        <div class="item-heading"><h3>ICU Survival Rate Classifier</h3></div>
         <p>Built a logistic regression classifier over public medical data and explored feature engineering, regularization, hyperparameter tuning, and class-imbalance mitigation. Mean AUROC: 0.8343.</p>
       </article>
       <article class="resume-item">
-        <div class="item-heading"><h3><a href="projects.html#vision">Dog Breed Image Classifier</a></h3></div>
+        <div class="item-heading"><h3>Dog Breed Image Classifier</h3></div>
         <p>Implemented CNN architectures with transfer learning in PyTorch and a Vision Transformer, then compared their performance on the same classification task.</p>
       </article>
+    </section>
+
+    <section class="resume-section">
+      <h2>Personal Projects</h2>
       <article class="resume-item">
-        <div class="item-heading"><h3><a href="projects.html#sentiment">Airline Sentiment Analysis</a></h3></div>
+        <div class="item-heading"><h3>Airline Sentiment Analysis</h3></div>
         <p>Built a supervised ML model in Python using real Twitter data and tools including scikit-learn and NLTK.</p>
       </article>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container footer-inner"><span>James · Software & AI</span><span>University of Michigan · CSE</span></div>
+    <div class="container footer-inner"><span>James · Software & AI</span><span><a href="mailto:stierlej@umich.edu">stierlej@umich.edu</a> · <a href="tel:(734) 883-1875">(734) 883-1875</a> · <a href="https://www.linkedin.com/in/james-stierle">LinkedIn</a></span></div>
   </footer>
 </body>
 </html>

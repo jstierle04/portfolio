@@ -6,7 +6,7 @@ A static, responsive portfolio website built with plain HTML and CSS.
 
 - `index.html` — About / landing page
 - `resume.html` — Native HTML resume
-- `projects.html` — Portfolio with four project sections
+- `projects.html` — Portfolio with three project sections
 - `assets/style.css` — Shared blue visual theme and responsive layout
 
 ## Publish with GitHub Pages
