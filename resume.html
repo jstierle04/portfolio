@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>James | Resume</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html">JAMES<span>.</span></a>
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <a class="active" href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container resume-page">
+    <div class="page-intro">
+      <p class="eyebrow">RESUME</p>
+      <h1>Experience & technical background</h1>
+      <p>Selected experience, coursework, skills, and projects. Identifying contact information is intentionally omitted for this course version.</p>
+    </div>
+
+    <section class="resume-section">
+      <h2>Education</h2>
+      <article class="resume-item">
+        <div class="item-heading">
+          <div><h3>University of Michigan</h3><p>B.S.E. in Computer Science & Engineering</p></div>
+          <span>Expected Dec. 2026</span>
+        </div>
+        <p>GPA: 3.68</p>
+      </article>
+    </section>
+
+    <section class="resume-section">
+      <h2>Experience</h2>
+      <article class="resume-item">
+        <div class="item-heading">
+          <div><h3>KLA Corporation</h3><p>Software Engineering Intern</p></div>
+          <span>Summer 2025 · Summer 2026</span>
+        </div>
+        <ul>
+          <li>Designed and implemented an agentic AI RAG workflow using approximately 70,000 historical bug reports to diagnose root causes and recommend solutions.</li>
+          <li>Created a semantic-search PostgreSQL database and an MCP server for low-latency retrieval of similar resolved issues and solutions.</li>
+          <li>Built applications that used the semantic MCP to answer technical questions and reduce bug-triage investigation from hours or days to minutes.</li>
+          <li>Developed a CNN-based ML application to predict optimal compression formats for high-resolution wafer images, with potential storage savings of hundreds of terabytes.</li>
+          <li>Worked with Python, SQL, Linux, MCP servers, RAG workflows, prompt engineering, Keras, and TensorFlow.</li>
+        </ul>
+      </article>
+      <article class="resume-item">
+        <div class="item-heading">
+          <div><h3>Red Robin</h3><p>Server</p></div>
+          <span>2021–2025 · 2025–Present</span>
+        </div>
+        <ul>
+          <li>Trained new hires while developing communication, multitasking, and leadership skills.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="resume-section">
+      <h2>Technical Skills</h2>
+      <div class="skill-groups">
+        <div><h3>Languages</h3><p>Python · C/C++ · Java · SQL</p></div>
+        <div><h3>ML / AI</h3><p>CNNs · RNNs · Diffusion Models · TensorFlow · PyTorch · RAG · AI Agents · MCP Servers</p></div>
+        <div><h3>Development</h3><p>Linux · Windows · VS Code · Visual Studio · Git/GitHub · Docker · IBM RTC</p></div>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Selected Coursework</h2>
+      <div class="course-grid">
+        <article><h3>Operating Systems</h3><p>Multithreading, synchronization, CPU scheduling, virtual memory, and file systems. Built a thread library, pager, and simulated disk.</p></article>
+        <article><h3>Machine Learning</h3><p>Regression, classification, neural networks, regularization, clustering, density estimation, Bayesian networks, and reinforcement learning.</p></article>
+        <article><h3>Computer Vision</h3><p>CNNs, Vision Transformers, representation learning, image filtering/Fourier analysis, segmentation, geometric transformations, motion estimation, and multiview geometry.</p></article>
+        <article><h3>Computer Security</h3><p>Cryptography, database/web/network security, and buffer-overflow defenses.</p></article>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Projects</h2>
+      <article class="resume-item">
+        <div class="item-heading"><h3><a href="projects.html#systems">Major OS Component Design</a></h3></div>
+        <ul>
+          <li>Implemented thread, mutex, and condition-variable types using RAII and created a scheduler for single- and multi-CPU applications.</li>
+          <li>Implemented a virtual memory manager using the Clock Page Replacement algorithm for swap-backed and file-backed pages.</li>
+          <li>Built a concurrent filesystem serviced over sockets with request parsing, disk/inode traversal, and reader/writer locks.</li>
+        </ul>
+      </article>
+      <article class="resume-item">
+        <div class="item-heading"><h3><a href="projects.html#icu">ICU Survival Rate Classifier</a></h3></div>
+        <p>Built a logistic regression classifier over public medical data and explored feature engineering, regularization, hyperparameter tuning, and class-imbalance mitigation. Mean AUROC: 0.8343.</p>
+      </article>
+      <article class="resume-item">
+        <div class="item-heading"><h3><a href="projects.html#vision">Dog Breed Image Classifier</a></h3></div>
+        <p>Implemented CNN architectures with transfer learning in PyTorch and a Vision Transformer, then compared their performance on the same classification task.</p>
+      </article>
+      <article class="resume-item">
+        <div class="item-heading"><h3><a href="projects.html#sentiment">Airline Sentiment Analysis</a></h3></div>
+        <p>Built a supervised ML model in Python using real Twitter data and tools including scikit-learn and NLTK.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><span>James · Software & AI</span><span>University of Michigan · CSE</span></div>
+  </footer>
+</body>
+</html>

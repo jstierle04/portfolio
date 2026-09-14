@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>James | Projects</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html">JAMES<span>.</span></a>
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a class="active" href="projects.html">Projects</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container projects-page">
+    <div class="page-intro">
+      <p class="eyebrow">PORTFOLIO</p>
+      <h1>Selected projects</h1>
+      <p>A mix of systems, machine learning, and computer vision work. Project screenshots and repository links can be added to each entry later.</p>
+    </div>
+
+    <section class="project-detail" id="systems">
+      <div class="detail-image placeholder"><span>ADD OS PROJECT SCREENSHOT</span></div>
+      <div class="detail-copy">
+        <p class="tag">SYSTEMS · C++</p>
+        <h2>Major OS Component Design</h2>
+        <p>
+          A collection of operating-systems components developed as part of advanced
+          systems coursework. The work focused on concurrency, scheduling, virtual
+          memory, filesystem design, synchronization, and rigorous testing.
+        </p>
+        <ul>
+          <li>Thread library with threads, mutexes, and condition variables.</li>
+          <li>Scheduler designed for single- and multi-CPU applications.</li>
+          <li>Pager supporting swap-backed and file-backed virtual pages.</li>
+          <li>Concurrent socket-served filesystem with reader/writer synchronization.</li>
+        </ul>
+        <div class="placeholder-note">Repository / demo link can go here.</div>
+      </div>
+    </section>
+
+    <section class="project-detail reverse" id="icu">
+      <div class="detail-image placeholder"><span>ADD ML PROJECT SCREENSHOT</span></div>
+      <div class="detail-copy">
+        <p class="tag">MACHINE LEARNING · PYTHON</p>
+        <h2>ICU Survival Rate Classifier</h2>
+        <p>
+          A binary classification project using public ICU data. The project explored
+          how preprocessing, feature engineering, regularization, hyperparameter
+          tuning, and class imbalance affect model performance.
+        </p>
+        <ul>
+          <li>Logistic regression binary classifier.</li>
+          <li>Investigated class weighting and imbalance mitigation.</li>
+          <li>Mean AUROC: <strong>0.8343</strong>.</li>
+        </ul>
+        <div class="placeholder-note">Model results chart / repository link can go here.</div>
+      </div>
+    </section>
+
+    <section class="project-detail" id="vision">
+      <div class="detail-image placeholder"><span>ADD COMPUTER VISION SCREENSHOT</span></div>
+      <div class="detail-copy">
+        <p class="tag">COMPUTER VISION · PYTORCH</p>
+        <h2>Dog Breed Image Classifier</h2>
+        <p>
+          Compared neural-network approaches to image classification by implementing
+          CNN architectures with transfer learning and a Vision Transformer for the
+          same dog-breed classification problem.
+        </p>
+        <ul>
+          <li>Transfer-learning CNN implementation.</li>
+          <li>Vision Transformer implementation.</li>
+          <li>Direct comparison of model performance and behavior.</li>
+        </ul>
+        <div class="placeholder-note">Add sample predictions / comparison chart here.</div>
+      </div>
+    </section>
+
+    <section class="project-detail reverse" id="sentiment">
+      <div class="detail-image placeholder"><span>ADD SENTIMENT ANALYSIS IMAGE</span></div>
+      <div class="detail-copy">
+        <p class="tag">NATURAL LANGUAGE PROCESSING · PYTHON</p>
+        <h2>Airline Sentiment Analysis</h2>
+        <p>
+          A supervised machine-learning project using real Twitter data to classify
+          airline-related sentiment.
+        </p>
+        <ul>
+          <li>Python-based supervised learning workflow.</li>
+          <li>Used scikit-learn and NLTK.</li>
+          <li>Explored text-processing and model-building techniques.</li>
+        </ul>
+        <div class="placeholder-note">Add model-results visualization or project screenshot here.</div>
+      </div>
+    </section>
+
+    <section class="coming-soon">
+      <p class="eyebrow">EASY TO EXTEND</p>
+      <h2>Have another project?</h2>
+      <p>Duplicate a project-detail section, replace the placeholder image, and add a short explanation of the problem, your approach, and the result.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><span>James · Software & AI</span><span>University of Michigan · CSE</span></div>
+  </footer>
+</body>
+</html>
