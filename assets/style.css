@@ -134,6 +134,8 @@ pre b { color: #78b5ff; }
 .project-detail.reverse .detail-copy { order: 1; }
 .project-detail.reverse { grid-template-columns: .8fr 1.2fr; }
 .detail-image { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--soft); }
+.project-detail#kla-rag .detail-image,
+.project-detail#kla-compression .detail-image { border: 0; }
 .detail-image img { display: block; width: 100%; height: auto; }
 .detail-copy ul { padding-left: 20px; margin-top: 20px; }
 .detail-copy li { margin-bottom: 7px; }
